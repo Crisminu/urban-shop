@@ -94,6 +94,23 @@ img{
     background: var(--color-primary-hover);
 }
 
+.contact-info p {
+    color: white;
+}
+
+.campaign-gallery {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    gap: 10px; /* Añade espacio entre las imágenes */
+    flex-wrap: wrap; /* Permite que las imágenes se ajusten en varias filas si es necesario */
+}
+
+.campaign-gallery img {
+    margin-top: 10px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
 
 
 /*=================================
